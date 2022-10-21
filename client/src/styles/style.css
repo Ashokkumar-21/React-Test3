@@ -10,12 +10,21 @@
 }
 
 .header-div{
-    max-height: 96px;
+    height: 96px;
+}
+
+.headerh1{
+    font-size: 44px;
+    color: #00408A;
+    font-weight: 800;
+    text-align: center;
+    padding-top: 20px;
 }
 
 .body-div{
     min-height: 671px;
     background: transparent linear-gradient(323deg, #51BDDDD9 0%, #94CC4CE6 100%) 0% 0%;
+    padding-top: 35px;
 }
 
 .body-card{
@@ -24,4 +33,14 @@
     background: #FFFFFF;
     border-radius: 30px;
     margin: auto;
+    padding: 86px 0px 0px 187px;
+    width: 90%;
+}
+
+.cardh5{
+    font-size: 22px;
+    color: #00408A;
+    font-weight: 800;
+    line-height: 27px;
+    margin-bottom: 22px;
 }

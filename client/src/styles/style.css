@@ -4,3 +4,24 @@
     padding: 0px;
     box-sizing: border-box;
 }
+
+.main-div{
+    min-height: 768px;
+}
+
+.header-div{
+    max-height: 96px;
+}
+
+.body-div{
+    min-height: 671px;
+    background: transparent linear-gradient(323deg, #51BDDDD9 0%, #94CC4CE6 100%) 0% 0%;
+}
+
+.body-card{
+    max-width: 759px;
+    min-height: 606px;
+    background: #FFFFFF;
+    border-radius: 30px;
+    margin: auto;
+}

@@ -1,11 +1,20 @@
 
 
-.input-grp-txt{
+.input-grp-txt input{
     display: block;
     width: 100%;
+    height: 35px;
+    padding: 5px;
+    font-size: 20px;
+    border: 1px solid #C4C4C4;
+    margin: 7px 0px 14px 0px;
 }
 
 .input-grp-txt label{
     display: block;
     width: 100%;
+    color: #00408A;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 18px;
 }

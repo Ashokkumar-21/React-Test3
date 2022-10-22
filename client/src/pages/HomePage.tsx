@@ -1,5 +1,6 @@
 import React from "react";
 import { InputText } from "../components/InputText";
+import { LoginBtn } from "../components/LoginBtn";
 interface HomePageProps {}
 
 export const HomePage: React.FC<HomePageProps> = () => {
@@ -19,6 +20,7 @@ export const HomePage: React.FC<HomePageProps> = () => {
           <InputText type='password' id="text2" label="Password*" />
           </div>
           </form>
+          <LoginBtn type='submit' value='string' addclass="none"/>
         </div>
       </div>
       <form>

@@ -1,0 +1,20 @@
+.login-btn{
+    border: none;
+    display:inline-block;
+    color: white;
+    padding: 10px 30px 10px 30px;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 22px;
+    background-color: #00408A;
+    border-radius: 50px;
+    text-align: center;
+}
+
+.green{
+    background-color: green;
+}
+
+.crimson{
+    background-color: crimson;
+}

@@ -10,7 +10,7 @@ interface LoginBtnProps {
 export const LoginBtn: React.FC<LoginBtnProps> = ({type,value,addclass}) => {
   return (
     <div>
-        <button className={`login-btn ${addclass}`} type={type} value={value}>Login</button>
+        <button className={`btn ${addclass}`} type={type} value={value}>Login</button>
     </div>
   );
 };

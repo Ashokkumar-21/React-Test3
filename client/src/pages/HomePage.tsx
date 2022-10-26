@@ -20,7 +20,7 @@ export const HomePage: React.FC<HomePageProps> = () => {
           <InputText type='password' id="text2" label="Password*" />
           </div>
           </form>
-          <LoginBtn type='submit' value='string' addclass="none"/>
+          <LoginBtn type='submit' value='string' addclass="green"/>
         </div>
       </div>
       <form>

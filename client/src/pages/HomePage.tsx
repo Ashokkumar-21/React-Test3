@@ -1,26 +1,37 @@
 import React from "react";
 import { InputText } from "../components/InputText";
 import { LoginBtn } from "../components/LoginBtn";
+import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
+import "react-tabs/style/react-tabs.css";
 interface HomePageProps {}
 
 export const HomePage: React.FC<HomePageProps> = () => {
   return (
     <div className="main-div">
-      <div className="header-div">
-        <h1 className="headerh1">Test Page</h1>
-      </div>
       <div className="body-div">
         <div className="body-card">
-          <h5 className="cardh5">Sign in</h5>
-          <form>
-          <div>
-            <InputText type='text' id="text1" label="Email*" />
-          </div>
-          <div>
-          <InputText type='password' id="text2" label="Password*" />
-          </div>
-          </form>
-          <LoginBtn type='submit' value='string' addclass="green"/>
+          <Tabs>
+            <TabList>
+              <Tab>Login</Tab>
+              <Tab>SignUp</Tab>
+            </TabList>
+            <TabPanel>
+              <h5 className="cardh5">Sign in</h5>
+              <form>
+                <InputText type="text" id="text1" label="Email*" />
+                <InputText type="password" id="text2" label="Password*" />
+              </form>
+              <LoginBtn type="submit" value="string" addclass="green" />
+            </TabPanel>
+            <TabPanel>
+              <h5 className="cardh5">Sign Up</h5>
+              <form>
+                <InputText type="text" id="text1" label="Email*" />
+                <InputText type="password" id="text2" label="Password*" />
+              </form>
+              <LoginBtn type="submit" value="string" addclass="green" />
+            </TabPanel>
+          </Tabs>
         </div>
       </div>
       <form>

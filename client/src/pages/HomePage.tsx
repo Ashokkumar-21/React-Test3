@@ -34,10 +34,6 @@ export const HomePage: React.FC<HomePageProps> = () => {
           </Tabs>
         </div>
       </div>
-      <form>
-        <label htmlFor="lab1">Test</label>
-        <input type="text" id="lab1" />
-      </form>
     </div>
   );
 };

@@ -48,3 +48,20 @@
     line-height: 27px;
     margin-bottom: 22px;
 }
+
+.react-tabs__tab-list {
+    border-bottom: none !important;
+}
+
+.react-tabs__tab--selected {
+    background: #fff;
+    border-color: #aaa;
+    color: black;
+    border-radius: 5px 5px 0 0;
+    border-bottom: 5px solid green !important;
+}
+
+.react-tabs__tab {
+    border: none !important;
+    border-bottom: 5px solid green !important;
+}

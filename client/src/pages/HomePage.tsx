@@ -3,11 +3,13 @@ import { InputText } from "../components/InputText";
 import { LoginBtn } from "../components/LoginBtn";
 import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
 import "react-tabs/style/react-tabs.css";
+import { HeadDiv } from "../components/HeadDiv";
 interface HomePageProps {}
 
 export const HomePage: React.FC<HomePageProps> = () => {
   return (
     <div className="main-div">
+      <HeadDiv />
       <div className="body-div">
         <div className="body-card">
           <Tabs>

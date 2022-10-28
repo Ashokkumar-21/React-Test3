@@ -33,8 +33,12 @@
     background: #FFFFFF;
     border-radius: 30px;
     margin: auto;
-    padding: 86px 190px 0px 187px;
+    padding: 30px 30px;
     width: 90%;
+}
+
+.body-card1{
+    padding: 86px 190px 0px 187px;
 }
 
 .cardh5{

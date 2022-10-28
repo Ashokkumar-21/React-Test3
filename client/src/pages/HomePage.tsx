@@ -18,20 +18,24 @@ export const HomePage: React.FC<HomePageProps> = () => {
               <Tab>SignUp</Tab>
             </TabList>
             <TabPanel>
+              <div className="body-card1">
               <h5 className="cardh5">Sign in</h5>
               <form>
                 <InputText type="text" id="text1" label="Email*" />
                 <InputText type="password" id="text2" label="Password*" />
               </form>
               <LoginBtn type="submit" value="string" addclass="green" />
+              </div>
             </TabPanel>
             <TabPanel>
+            <div className="body-card1">
               <h5 className="cardh5">Sign Up</h5>
               <form>
                 <InputText type="text" id="text1" label="Email*" />
                 <InputText type="password" id="text2" label="Password*" />
               </form>
-              <LoginBtn type="submit" value="string" addclass="green" />
+              <LoginBtn type="submit" value="string" addclass="crimson" />
+              </div>
             </TabPanel>
           </Tabs>
         </div>

@@ -65,3 +65,7 @@
     border: none !important;
     border-bottom: 5px solid green !important;
 }
+
+.log-tab{
+    border-bottom: 5px solid green !important;
+}

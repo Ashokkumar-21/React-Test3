@@ -1,16 +1,16 @@
 import React from "react";
-import './styles/HeadDiv.css'
-import '../images/AlderHey_Logo.png'
+import "./styles/HeadDiv.css";
+import LogoImg from "../images/AlderHey_Logo.png";
 
 interface HeadDivProps {
-addclass?:string;
+  addclass?: string;
 }
 
-export const HeadDiv: React.FC<HeadDivProps> = ({addclass}) => {
+export const HeadDiv: React.FC<HeadDivProps> = ({ addclass }) => {
   return (
     <div className={`header-div ${addclass}`}>
-        <h1 className="headerh1">Test Page</h1>
-        <img className="headimg" src="../images/AlderHey_Logo.png" alt="Header Image" />
+      <img className="headimg" src={LogoImg} />
+      <h1 className="headerh1">Test Page</h1>
     </div>
   );
 };

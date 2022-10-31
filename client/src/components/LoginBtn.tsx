@@ -5,12 +5,13 @@ interface LoginBtnProps {
     type: 'submit' | 'reset'
     value?:string;
     addclass?:string;
+    text?:string;
 }
 
-export const LoginBtn: React.FC<LoginBtnProps> = ({type,value,addclass}) => {
+export const LoginBtn: React.FC<LoginBtnProps> = ({type,value,addclass,text}) => {
   return (
     <div>
-        <button className={`btn ${addclass}`} type={type} value={value}>Login</button>
+        <button className={`btn ${addclass}`} type={type} value={value}>{text}</button>
     </div>
   );
 };

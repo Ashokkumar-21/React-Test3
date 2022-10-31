@@ -24,7 +24,7 @@ export const HomePage: React.FC<HomePageProps> = () => {
                 <InputText type="text" id="text1" label="Email*" />
                 <InputText type="password" id="text2" label="Password*" />
               </form>
-              <LoginBtn type="submit" value="string" addclass="green" />
+              <LoginBtn type="submit" value="string" addclass="green" text="login" />
               </div>
             </TabPanel>
             <TabPanel>
@@ -34,7 +34,7 @@ export const HomePage: React.FC<HomePageProps> = () => {
                 <InputText type="text" id="text1" label="Email*" />
                 <InputText type="password" id="text2" label="Password*" />
               </form>
-              <LoginBtn type="submit" value="string" addclass="crimson" />
+              <LoginBtn type="submit" value="string" addclass="green" text="signup" />
               </div>
             </TabPanel>
           </Tabs>

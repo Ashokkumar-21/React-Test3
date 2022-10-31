@@ -53,7 +53,7 @@
     border-bottom: none !important;
 }
 
-.react-tabs__tab--selected {
+.body-card .react-tabs__tab--selected {
     background: #fff;
     border-color: #aaa;
     color: black;
@@ -63,7 +63,7 @@
 
 .react-tabs__tab {
     border: none !important;
-    border-bottom: 5px solid green !important;
+    /* border-bottom: 5px solid green !important; */
 }
 
 .log-tab{

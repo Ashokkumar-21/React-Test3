@@ -1,19 +1,18 @@
 .header-div{
     height: 96px;
+    width: 100%;
     display: flex;
+    align-items: center;
 }
 
 .headerh1{
     font-size: 44px;
     color: #00408A;
     font-weight: 800;
-    padding-top: 20px;
-    align-self: center;
 }
 
 .headimg{
     width: 150px;
     height: 50px;
     margin-left: 20px;
-    align-self: center;
 }

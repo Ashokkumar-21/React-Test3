@@ -9,18 +9,6 @@
     min-height: 768px;
 }
 
-.header-div{
-    height: 96px;
-}
-
-.headerh1{
-    font-size: 44px;
-    color: #00408A;
-    font-weight: 800;
-    text-align: center;
-    padding-top: 20px;
-}
-
 .body-div{
     min-height: 671px;
     background: transparent linear-gradient(323deg, #51BDDDD9 0%, #94CC4CE6 100%) 0% 0%;
@@ -63,7 +51,7 @@
 
 .react-tabs__tab {
     border: none !important;
-    /* border-bottom: 5px solid green !important; */
+    position: unset !important;
 }
 
 .log-tab{

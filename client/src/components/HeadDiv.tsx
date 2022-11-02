@@ -10,10 +10,14 @@ interface HeadDivProps {
 export const HeadDiv: React.FC<HeadDivProps> = ({ addclass }) => {
   return (
     <div className={`header-div ${addclass}`}>
+      <div>
       <Link to="/">
       <img className="headimg" src={LogoImg} />
       </Link>
+      </div>
+      <div>
       <h1 className="headerh1">Test Page</h1>
+      </div>
     </div>
   );
 };
